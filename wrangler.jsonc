@@ -6,7 +6,8 @@
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "workers-vercel-ai-starter",
 	"main": "worker/index.ts",
-	"compatibility_date": "2025-04-29",
+	"compatibility_date": "2025-04-24",
+  "compatibility_flags": ["nodejs_compat"],
 	"assets": {
 		"not_found_handling": "single-page-application"
 	},
